@@ -131,7 +131,7 @@ require_once 'variables.php';
                         break;
 
                     case 'description' === $key:
-                        echo '<mark>' . $value . '</mark>' . '</br>';
+                        echo '<span>' . $value . '</span>' . '</br>';
 
                         break;
 

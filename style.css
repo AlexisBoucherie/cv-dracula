@@ -37,7 +37,6 @@ body {
     background-color: var(--background);
 }
 
-
 /* reset des margin et padding des navigateurs */
 
 
@@ -91,26 +90,25 @@ body {
 
 .contact p,
 .contact a {
+    color: #DAD1D2;
     font-size: 1.1em;
 }
 
 .contact a {
     text-decoration: none;
-    color: #aa5999;
 }
 
 /* contact end */
 /* HEADER (Alexis) */
 header {
-    /* justify-content: flex-end; */
-    background: url('../img/castle.jpg') center center no-repeat;
+    background: url("img/hauntedcastle.jpg") center no-repeat;
     filter: saturate(85%);
-    opacity: .7;
+    /*opacity: .7;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    padding: 10px;
 }
 
 header > div {
@@ -119,10 +117,8 @@ header > div {
     align-self: center;
 }
 
-
 header .button-toggle div form > button {
     margin: .1em .6em 0 0;
-
     padding: .5em;
     background-color: var(--title);
     text-transform: capitalize;
@@ -141,11 +137,12 @@ h2 {
 }
 
 h1 {
-    color: #971C27;
+    color: #DAD1D2;
     letter-spacing: .3em;
     line-height: .2em;
     font-size: 4em;
-    text-shadow: 2px 2px var(--title);
+    text-shadow: 3px 3px var(--title);
+    z-index: 2;
 }
 
 h2 {
@@ -219,6 +216,10 @@ h2 {
     background-color: var(--background-els);
     color: var(--text);
 
+}
+
+.experiences .data-experiences h4 span {
+    color: var(--title);
 }
 
 .experiences .header,
@@ -313,20 +314,13 @@ h2 {
 .formations .content .data-experiences h4 {
     font-size: 1.2em;
     font-weight: 900;
-    text-decoration: underline;
+    color: #DAD1D2;
 }
 
 .experiences .content .data-experiences i,
 .formations .content .data-experiences i {
     text-decoration: wavy;
     font-weight: 200;
-}
-
-.experiences .content .data-experiences mark,
-.formations .content .data-experiences mark {
-    text-decoration: none;
-    background-color: var(--title);
-    color: var(--text);
 }
 
 .experiences .content span.rounded,
@@ -354,7 +348,9 @@ h2 {
 /* experiences end */
 
 /* formations start */
-
+.formations i {
+    color: #DAD1D2;
+}
 
 /* hobbies start */
 .hobbies {
@@ -413,9 +409,13 @@ h2 {
 }
 
 .hobbies .content ul li:nth-child(odd) {
-    color: var(--text);
     background-color: var(--title);
 }
+
+.hobbies .content ul li {
+    color: #DAD1D2;
+}
+
 
 
 /* hobbies end */

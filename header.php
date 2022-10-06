@@ -1,7 +1,6 @@
 <header>
     <div class="banner">
 
-
         <img class="photo-profil" src="img/dracula.png" alt="photo-profil" srcset="">
         <h1>Dracula</h1>
     </div>
