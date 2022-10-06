@@ -1,0 +1,35 @@
+@media screen and (min-width: 601px) {
+    body {
+        font-size: 1.4em;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header img {
+        height: 12em;
+        width: 12em;
+    }
+
+    .banner {
+        width: 70vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .button-toggle {
+        width: 10vw;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer svg {
+        width: 150px;
+        height: 150px;
+    }
+}
