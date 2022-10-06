@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('./mobil.css');
-@import url('./desktop.css');
+@import url('desktop-v1.css');
 @import url('./animation.css');
 
 .light {
