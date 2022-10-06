@@ -26,7 +26,7 @@
     border-bottom: .5em solid rgba(#3F0A59, .5);
 }
 
-.experiences .header>div {
+.experiences .header > div {
 
     width: 50%;
 }
@@ -48,11 +48,11 @@
 
 }
 
-.experiences .header>div:nth-child(2) {
+.experiences .header > div:nth-child(2) {
     width: 67%;
 }
 
-.experiences .header>div:nth-child(1) {
+.experiences .header > div:nth-child(1) {
     width: 33%;
 }
 
@@ -63,8 +63,7 @@
     width: 85%;
     height: 100%;
     opacity: .2;
-    filter: grayscale(90%);
-    ;
+    filter: grayscale(90%);;
 
 }
 
@@ -82,7 +81,7 @@
     }
 
     50% {
-        transform: rotate(0eg);
+        transform: rotate(0 eg);
     }
 
     75% {

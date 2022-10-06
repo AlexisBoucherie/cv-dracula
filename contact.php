@@ -1,7 +1,7 @@
 <div class="contact">
     <?php
 
-require_once 'variables.php';
+    require_once 'variables.php';
     ?>
     <h3>Contacts</h3>
     <address>

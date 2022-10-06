@@ -113,15 +113,14 @@ header {
 
 }
 
-header>div {
+header > div {
     width: 100%;
     justify-content: center;
     align-self: center;
 }
 
 
-
-header .button-toggle div form>button {
+header .button-toggle div form > button {
     margin: .1em .6em 0 0;
 
     padding: .5em;
@@ -133,10 +132,6 @@ header .button-toggle div form>button {
     border: none;
     color: white;
 }
-
-
-
-
 
 
 h1,
@@ -163,7 +158,6 @@ h2 {
 }
 
 /* // fin HEADER */
-
 
 
 /* The switch - the box around the slider */
@@ -201,7 +195,6 @@ h2 {
     25% {
         background-color: rgba(0, 0, 0, .2)
     }
-
 
 
     100% {
@@ -242,8 +235,8 @@ h2 {
     border-bottom: .5em solid rgba(#3F0A59, .5);
 }
 
-.experiences .header>div,
-.formations .header>div {
+.experiences .header > div,
+.formations .header > div {
 
     width: 50%;
 }
@@ -267,13 +260,13 @@ h2 {
 
 }
 
-.experiences .header>div:nth-child(2),
-.formations .header>div:nth-child(2) {
+.experiences .header > div:nth-child(2),
+.formations .header > div:nth-child(2) {
     width: 67%;
 }
 
-.experiences .header>div:nth-child(1),
-.formations .header>div:nth-child(1) {
+.experiences .header > div:nth-child(1),
+.formations .header > div:nth-child(1) {
     width: 33%;
 }
 
@@ -285,8 +278,7 @@ h2 {
     width: 85%;
     height: 100%;
     opacity: .2;
-    filter: grayscale(90%);
-    ;
+    filter: grayscale(90%);;
 
 }
 
@@ -435,7 +427,6 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
 
 
 /* footer end */

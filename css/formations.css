@@ -26,7 +26,7 @@
     border-bottom: .5em solid rgba(#3F0A59, .5);
 }
 
-.formations .header>div {
+.formations .header > div {
 
     width: 50%;
 }
@@ -48,11 +48,11 @@
 
 }
 
-.formations .header>div:nth-child(2) {
+.formations .header > div:nth-child(2) {
     width: 67%;
 }
 
-.formations .header>div:nth-child(1) {
+.formations .header > div:nth-child(1) {
     width: 33%;
 }
 

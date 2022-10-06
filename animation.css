@@ -95,7 +95,6 @@
 /* candel end */
 
 
-
 /* goute de sange */
 
 .drop {
@@ -166,7 +165,7 @@
     }
 
     50% {
-        transform: rotate(0eg);
+        transform: rotate(0 eg);
     }
 
     75% {
@@ -226,15 +225,15 @@
     transition: .4s;
 }
 
-input:checked+.slider {
+input:checked + .slider {
     background-color: var(--background);
 }
 
-input:focus+.slider {
+input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
